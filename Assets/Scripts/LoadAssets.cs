@@ -11,10 +11,9 @@ public class LoadAssets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //game object should be created here
         Instantiate(redObj,new Vector3(2.0F,0.0F,0.0F), Quaternion.identity);
 
-        Instantiate(blueObj, new Vector3(-2.0F,0.0F,0.0F), Quaternion.identity);
+        Instantiate(blueObj,new Vector3(-2.0F,0.0F,0.0F), Quaternion.identity);
     }
 
     // Update is called once per frame
